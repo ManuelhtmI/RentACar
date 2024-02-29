@@ -1,0 +1,73 @@
+/* App.css */
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Centrez l'application */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Couleur de fond de l'application */
+}
+
+/* Styles pour la table des voitures */
+.table-container {
+  width: 80%; /* Largeur de la table */
+  overflow-x: auto; /* Ajouter une barre de défilement horizontale si nécessaire */
+}
+
+table {
+  width: 100%; /* La table occupe toute la largeur du conteneur */
+  border-collapse: collapse; /* Fusionner les bordures des cellules */
+  text-align: left; /* Aligner le texte à gauche */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Bordures des cellules */
+  padding: 8px; /* Espacement intérieur des cellules */
+}
+
+th {
+  background-color: #333; /* Couleur de fond de l'en-tête */
+  color: #fff; /* Couleur du texte de l'en-tête */
+}
+
+/* Styles pour le formulaire d'ajout de voiture */
+.form-container {
+  width: 80%; /* Largeur du formulaire */
+  max-width: 400px; /* Largeur maximale du formulaire */
+  margin-bottom: 20px; /* Espacement en bas du formulaire */
+}
+
+.form-input {
+  width: 100%; /* Largeur des champs de saisie */
+  margin-bottom: 10px; /* Espacement en bas des champs de saisie */
+}
+
+.form-button {
+  width: 100%; /* Largeur du bouton */
+  padding: 10px; /* Espacement intérieur du bouton */
+  background-color: #333; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  border: none; /* Supprimer les bordures du bouton */
+  cursor: pointer;
+}
+
+/* Styles pour l'encart utilisateur */
+.user-info-container {
+  width: 80%; /* Largeur de l'encart */
+  max-width: 400px; /* Largeur maximale de l'encart */
+  padding: 10px; /* Espacement intérieur de l'encart */
+  background-color: #fff; /* Couleur de fond de l'encart */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  border-radius: 8px; /* Coins arrondis */
+  margin-bottom: 20px; /* Espacement en bas de l'encart */
+}

@@ -1,0 +1,41 @@
+/* styles.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar styles */
+  nav {
+    position: fixed; /* Position fixe pour rester en haut */
+    top: 0; /* Aligner en haut */
+    left: 0; /* Aligner à gauche */
+    width: 100%; /* Largeur de la barre de navigation */
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+    padding: 10px 0; /* Espacement intérieur vertical de la barre de navigation */
+    text-align: center; /* Aligner le texte au centre */
+    z-index: 1000; /* Indice de profondeur pour empêcher le chevauchement */
+  }
+  
+  ul {
+    list-style-type: none; /* Supprimer les puces de la liste */
+    display: flex; /* Afficher les éléments de la liste en ligne */
+    justify-content: center; /* Centrer les éléments de la liste */
+  }
+  
+  li {
+    margin-right: 20px; /* Espacement entre les éléments de la liste */
+  }
+  
+  a {
+    text-decoration: none; /* Supprimer le soulignement du lien */
+    color: #fff; /* Couleur du texte des liens */
+    transition: color 0.3s; /* Animation de transition pour la couleur du texte */
+  }
+  
+  a:hover {
+    color: #ff6600; /* Couleur du texte des liens au survol */
+  }
+  
